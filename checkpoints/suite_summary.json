@@ -1,0 +1,20 @@
+[
+  {
+    "task": "pneumoniamnist",
+    "minutes": 0.4,
+    "task_type": "cls",
+    "metric": "ACC",
+    "best_val": 0.9847328244274809,
+    "test": 0.8557692307692307,
+    "params": 2713954
+  },
+  {
+    "task": "dermamnist",
+    "minutes": 0.5,
+    "task_type": "cls",
+    "metric": "ACC",
+    "best_val": 0.765702891326022,
+    "test": 0.7461346633416459,
+    "params": 2715815
+  }
+]

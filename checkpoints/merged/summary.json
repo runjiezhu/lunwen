@@ -1,0 +1,428 @@
+{
+  "task": "merged",
+  "task_type": "multitask",
+  "metric_name": "mean_ACC",
+  "best_val": 0.7842085654607432,
+  "test": 0.7203035940931252,
+  "epochs": 30,
+  "params": 2749482,
+  "best_epoch": 30,
+  "n_train": 541443,
+  "n_val": 73268,
+  "n_test": 124847,
+  "balanced": true,
+  "per_task": [
+    {
+      "task": "adrenalmnist3d",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.7142857142857143,
+      "test": 0.6812080536912751,
+      "n_test": 298
+    },
+    {
+      "task": "alzheimer-mri",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.9588235294117647,
+      "test": 0.940625,
+      "n_test": 1280
+    },
+    {
+      "task": "bloodmnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.9345794392523364,
+      "test": 0.9394913767904122,
+      "n_test": 3421
+    },
+    {
+      "task": "brain-tumor-mri",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.9683131407269339,
+      "test": 0.9720670391061452,
+      "n_test": 537
+    },
+    {
+      "task": "breast-ultrasound-birads",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.5405405405405406,
+      "test": 0.52,
+      "n_test": 375
+    },
+    {
+      "task": "breastmnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.8717948717948718,
+      "test": 0.8397435897435898,
+      "n_test": 156
+    },
+    {
+      "task": "chest-ct-lung-cancer",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.7777777777777778,
+      "test": 0.46984126984126984,
+      "n_test": 315
+    },
+    {
+      "task": "chest-xray-pneumonia",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.875,
+      "test": 0.7788461538461539,
+      "n_test": 624
+    },
+    {
+      "task": "chestmnist",
+      "head": "multilabel",
+      "metric": "AUC",
+      "val": 0.6814988893321139,
+      "test": 0.6757960681606229,
+      "n_test": 22433
+    },
+    {
+      "task": "dermamnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.7298105682951147,
+      "test": 0.7276807980049875,
+      "n_test": 2005
+    },
+    {
+      "task": "fracturemnist3d",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.3592233009708738,
+      "test": 0.4708333333333333,
+      "n_test": 240
+    },
+    {
+      "task": "idrid-diabetic-retinopathy",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.5384615384615384,
+      "test": 0.3300970873786408,
+      "n_test": 103
+    },
+    {
+      "task": "nodulemnist3d",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.8545454545454545,
+      "test": 0.8258064516129032,
+      "n_test": 310
+    },
+    {
+      "task": "oasis-age-reg",
+      "head": "reg",
+      "metric": "RMSE",
+      "val": 20.929264068603516,
+      "test": 20.395612716674805,
+      "n_test": 47
+    },
+    {
+      "task": "octmnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.890417282127031,
+      "test": 0.701,
+      "n_test": 1000
+    },
+    {
+      "task": "organamnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.9627176089970728,
+      "test": 0.8783327708403645,
+      "n_test": 17778
+    },
+    {
+      "task": "organcmnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.959866220735786,
+      "test": 0.8665940977261732,
+      "n_test": 8268
+    },
+    {
+      "task": "organmnist3d",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.7577639751552795,
+      "test": 0.6442622950819672,
+      "n_test": 610
+    },
+    {
+      "task": "organsmnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.8499184339314845,
+      "test": 0.7221655906671197,
+      "n_test": 8829
+    },
+    {
+      "task": "pathmnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.8734506197520991,
+      "test": 0.8227019498607242,
+      "n_test": 7180
+    },
+    {
+      "task": "pneumoniamnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.9809160305343512,
+      "test": 0.8509615384615384,
+      "n_test": 624
+    },
+    {
+      "task": "retinamnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.44166666666666665,
+      "test": 0.455,
+      "n_test": 400
+    },
+    {
+      "task": "synapsemnist3d",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.7062146892655368,
+      "test": 0.6448863636363636,
+      "n_test": 352
+    },
+    {
+      "task": "tissuemnist",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.6000846023688663,
+      "test": 0.6000211505922166,
+      "n_test": 47280
+    },
+    {
+      "task": "vesselmnist3d",
+      "head": "cls",
+      "metric": "ACC",
+      "val": 0.890625,
+      "test": 0.8848167539267016,
+      "n_test": 382
+    }
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8556471112666401,
+      "val_mean_cls_acc": 0.683666851918108,
+      "val_mean_ACC": 0.683666851918108,
+      "secs": 278.4
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5844984066630791,
+      "val_mean_cls_acc": 0.7285168480230781,
+      "val_mean_ACC": 0.7285168480230781,
+      "secs": 277.2
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.44253862545986267,
+      "val_mean_cls_acc": 0.7265314548021465,
+      "val_mean_ACC": 0.7265314548021465,
+      "secs": 276.9
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3386527615192018,
+      "val_mean_cls_acc": 0.742745148764593,
+      "val_mean_ACC": 0.742745148764593,
+      "secs": 305.5
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.27560101309196744,
+      "val_mean_cls_acc": 0.7447892052651525,
+      "val_mean_ACC": 0.7447892052651525,
+      "secs": 321.8
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.2327900668795509,
+      "val_mean_cls_acc": 0.7484010279108545,
+      "val_mean_ACC": 0.7484010279108545,
+      "secs": 322.3
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.20440615243619709,
+      "val_mean_cls_acc": 0.7563601638941746,
+      "val_mean_ACC": 0.7563601638941746,
+      "secs": 322.6
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.18574626825829135,
+      "val_mean_cls_acc": 0.7530531629131942,
+      "val_mean_ACC": 0.7530531629131942,
+      "secs": 319.2
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.17169828711090782,
+      "val_mean_cls_acc": 0.7540792468833327,
+      "val_mean_ACC": 0.7540792468833327,
+      "secs": 321.8
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.15834979007062425,
+      "val_mean_cls_acc": 0.7543323336917334,
+      "val_mean_ACC": 0.7543323336917334,
+      "secs": 320.2
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.1490460161393812,
+      "val_mean_cls_acc": 0.7636587825766061,
+      "val_mean_ACC": 0.7636587825766061,
+      "secs": 316.2
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.13986957309267817,
+      "val_mean_cls_acc": 0.7599839373242345,
+      "val_mean_ACC": 0.7599839373242345,
+      "secs": 315.5
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.13117014719998954,
+      "val_mean_cls_acc": 0.7657462330349761,
+      "val_mean_ACC": 0.7657462330349761,
+      "secs": 312.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.12354269165845135,
+      "val_mean_cls_acc": 0.7590694667068215,
+      "val_mean_ACC": 0.7590694667068215,
+      "secs": 418.3
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.11673275706540996,
+      "val_mean_cls_acc": 0.7665827706679103,
+      "val_mean_ACC": 0.7665827706679103,
+      "secs": 318.7
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.11146993976522317,
+      "val_mean_cls_acc": 0.7729023547472755,
+      "val_mean_ACC": 0.7729023547472755,
+      "secs": 285.2
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.10601947682300895,
+      "val_mean_cls_acc": 0.772550258537793,
+      "val_mean_ACC": 0.772550258537793,
+      "secs": 569.5
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.10252520765483943,
+      "val_mean_cls_acc": 0.7719983344233947,
+      "val_mean_ACC": 0.7719983344233947,
+      "secs": 318.2
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.09904161785483188,
+      "val_mean_cls_acc": 0.768377114068214,
+      "val_mean_ACC": 0.768377114068214,
+      "secs": 280.6
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.09411015530836815,
+      "val_mean_cls_acc": 0.776922264912676,
+      "val_mean_ACC": 0.776922264912676,
+      "secs": 272.8
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.09037351112202609,
+      "val_mean_cls_acc": 0.7773123495501466,
+      "val_mean_ACC": 0.7773123495501466,
+      "secs": 270.5
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.08826177355890596,
+      "val_mean_cls_acc": 0.7811781463405716,
+      "val_mean_ACC": 0.7811781463405716,
+      "secs": 264.6
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.08590010888701147,
+      "val_mean_cls_acc": 0.7767067322773317,
+      "val_mean_ACC": 0.7767067322773317,
+      "secs": 263.6
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.0829062338370635,
+      "val_mean_cls_acc": 0.7819913011774485,
+      "val_mean_ACC": 0.7819913011774485,
+      "secs": 263.5
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.0816044920663532,
+      "val_mean_cls_acc": 0.7834169777280786,
+      "val_mean_ACC": 0.7834169777280786,
+      "secs": 264.9
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.07964685490217564,
+      "val_mean_cls_acc": 0.7804935641180278,
+      "val_mean_ACC": 0.7804935641180278,
+      "secs": 264.4
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.07964095927837656,
+      "val_mean_cls_acc": 0.7821539300798976,
+      "val_mean_ACC": 0.7821539300798976,
+      "secs": 264.1
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.07766524947052447,
+      "val_mean_cls_acc": 0.7817481170608113,
+      "val_mean_ACC": 0.7817481170608113,
+      "secs": 264.0
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.07834539913195879,
+      "val_mean_cls_acc": 0.7836863980784144,
+      "val_mean_ACC": 0.7836863980784144,
+      "secs": 263.8
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.07777166016675315,
+      "val_mean_cls_acc": 0.7842085654607432,
+      "val_mean_ACC": 0.7842085654607432,
+      "secs": 264.5
+    }
+  ]
+}

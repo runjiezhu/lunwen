@@ -1,0 +1,494 @@
+{
+  "size": 32,
+  "n_tasks": 25,
+  "counts": {
+    "train": 541443,
+    "val": 73268,
+    "test": 124847
+  },
+  "tasks": [
+    {
+      "task": "adrenalmnist3d",
+      "head": "cls",
+      "num_outputs": 2,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 1188,
+        "val": 98,
+        "test": 298
+      },
+      "orig_shape": "28x28x28",
+      "was_3d": true
+    },
+    {
+      "task": "alzheimer-mri",
+      "head": "cls",
+      "num_outputs": 4,
+      "task_type": "cls",
+      "group": "external",
+      "source": "Falah/Alzheimer_MRI",
+      "modality": "MRI",
+      "classes": [
+        "MildDementia",
+        "ModerateDementia",
+        "NonDementia",
+        "VeryMildDementia"
+      ],
+      "counts": {
+        "train": 4610,
+        "val": 510,
+        "test": 1280
+      },
+      "orig_shape": "64x64",
+      "was_3d": false
+    },
+    {
+      "task": "bloodmnist",
+      "head": "cls",
+      "num_outputs": 8,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 11959,
+        "val": 1712,
+        "test": 3421
+      },
+      "orig_shape": "28x28x3",
+      "was_3d": true
+    },
+    {
+      "task": "brain-tumor-mri",
+      "head": "cls",
+      "num_outputs": 4,
+      "task_type": "cls",
+      "group": "external",
+      "source": "PranomVignesh/MRI-Images-of-Brain-Tumor",
+      "modality": "MRI",
+      "classes": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+      ],
+      "counts": {
+        "train": 3759,
+        "val": 1073,
+        "test": 537
+      },
+      "orig_shape": "64x64",
+      "was_3d": false
+    },
+    {
+      "task": "breast-ultrasound-birads",
+      "head": "cls",
+      "num_outputs": 4,
+      "task_type": "cls",
+      "group": "external",
+      "source": "BTX24/busbra-birads-processed",
+      "modality": "ultrasound",
+      "classes": [
+        "BI-RADS 2",
+        "BI-RADS 3",
+        "BI-RADS 4",
+        "BI-RADS 5"
+      ],
+      "counts": {
+        "train": 1352,
+        "val": 148,
+        "test": 375
+      },
+      "orig_shape": "64x64",
+      "was_3d": false
+    },
+    {
+      "task": "breastmnist",
+      "head": "cls",
+      "num_outputs": 2,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 546,
+        "val": 78,
+        "test": 156
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "chest-ct-lung-cancer",
+      "head": "cls",
+      "num_outputs": 4,
+      "task_type": "cls",
+      "group": "external",
+      "source": "Mahadih534/Chest_CT-Scan_images-Dataset",
+      "modality": "CT",
+      "classes": [
+        "adenocarcinoma",
+        "large-cell-carcinoma",
+        "normal",
+        "squamous-cell-carcinoma"
+      ],
+      "counts": {
+        "train": 612,
+        "val": 72,
+        "test": 315
+      },
+      "orig_shape": "64x64",
+      "was_3d": false
+    },
+    {
+      "task": "chest-xray-pneumonia",
+      "head": "cls",
+      "num_outputs": 2,
+      "task_type": "cls",
+      "group": "external",
+      "source": "hf-vision/chest-xray-pneumonia",
+      "modality": "X-ray",
+      "classes": [
+        "NORMAL",
+        "PNEUMONIA"
+      ],
+      "counts": {
+        "train": 5216,
+        "val": 16,
+        "test": 624
+      },
+      "orig_shape": "64x64",
+      "was_3d": false
+    },
+    {
+      "task": "chestmnist",
+      "head": "multilabel",
+      "num_outputs": 14,
+      "task_type": "multilabel",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 78468,
+        "val": 11219,
+        "test": 22433
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "dermamnist",
+      "head": "cls",
+      "num_outputs": 7,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 7007,
+        "val": 1003,
+        "test": 2005
+      },
+      "orig_shape": "28x28x3",
+      "was_3d": true
+    },
+    {
+      "task": "fracturemnist3d",
+      "head": "cls",
+      "num_outputs": 3,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 1027,
+        "val": 103,
+        "test": 240
+      },
+      "orig_shape": "28x28x28",
+      "was_3d": true
+    },
+    {
+      "task": "idrid-diabetic-retinopathy",
+      "head": "cls",
+      "num_outputs": 5,
+      "task_type": "cls",
+      "group": "external",
+      "source": "amin-nejad/idrid-disease-grading",
+      "modality": "fundus",
+      "classes": [
+        "noDR",
+        "mildDR",
+        "moderateDR",
+        "severeDR",
+        "proDR"
+      ],
+      "counts": {
+        "train": 374,
+        "val": 39,
+        "test": 103
+      },
+      "orig_shape": "64x64",
+      "was_3d": false
+    },
+    {
+      "task": "nodulemnist3d",
+      "head": "cls",
+      "num_outputs": 2,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 1158,
+        "val": 165,
+        "test": 310
+      },
+      "orig_shape": "28x28x28",
+      "was_3d": true
+    },
+    {
+      "task": "oasis-age-reg",
+      "head": "reg",
+      "num_outputs": 1,
+      "task_type": "reg",
+      "group": "external",
+      "source": "multabench/extended-img-cls-oasis-alzheimers",
+      "modality": "MRI",
+      "classes": [],
+      "counts": {
+        "train": 382,
+        "val": 47,
+        "test": 47
+      },
+      "orig_shape": "64x64",
+      "was_3d": false
+    },
+    {
+      "task": "octmnist",
+      "head": "cls",
+      "num_outputs": 4,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 97477,
+        "val": 10832,
+        "test": 1000
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "organamnist",
+      "head": "cls",
+      "num_outputs": 11,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 34581,
+        "val": 6491,
+        "test": 17778
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "organcmnist",
+      "head": "cls",
+      "num_outputs": 11,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 13000,
+        "val": 2392,
+        "test": 8268
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "organmnist3d",
+      "head": "cls",
+      "num_outputs": 11,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 972,
+        "val": 161,
+        "test": 610
+      },
+      "orig_shape": "28x28x28",
+      "was_3d": true
+    },
+    {
+      "task": "organsmnist",
+      "head": "cls",
+      "num_outputs": 11,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 13940,
+        "val": 2452,
+        "test": 8829
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "pathmnist",
+      "head": "cls",
+      "num_outputs": 9,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 89996,
+        "val": 10004,
+        "test": 7180
+      },
+      "orig_shape": "28x28x3",
+      "was_3d": true
+    },
+    {
+      "task": "pneumoniamnist",
+      "head": "cls",
+      "num_outputs": 2,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 4708,
+        "val": 524,
+        "test": 624
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "retinamnist",
+      "head": "cls",
+      "num_outputs": 5,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 1080,
+        "val": 120,
+        "test": 400
+      },
+      "orig_shape": "28x28x3",
+      "was_3d": true
+    },
+    {
+      "task": "synapsemnist3d",
+      "head": "cls",
+      "num_outputs": 2,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 1230,
+        "val": 177,
+        "test": 352
+      },
+      "orig_shape": "28x28x28",
+      "was_3d": true
+    },
+    {
+      "task": "tissuemnist",
+      "head": "cls",
+      "num_outputs": 8,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 165466,
+        "val": 23640,
+        "test": 47280
+      },
+      "orig_shape": "28x28",
+      "was_3d": false
+    },
+    {
+      "task": "vesselmnist3d",
+      "head": "cls",
+      "num_outputs": 2,
+      "task_type": "cls",
+      "group": "medmnist",
+      "source": "",
+      "modality": "",
+      "classes": [],
+      "counts": {
+        "train": 1335,
+        "val": 192,
+        "test": 382
+      },
+      "orig_shape": "28x28x28",
+      "was_3d": true
+    }
+  ],
+  "ml_dim": 14,
+  "created": "2026-10-30 05:54:05",
+  "source_files": [
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\adrenalmnist3d.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\external\\alzheimer-mri.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\bloodmnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\external\\brain-tumor-mri.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\external\\breast-ultrasound-birads.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\breastmnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\external\\chest-ct-lung-cancer.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\external\\chest-xray-pneumonia.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\chestmnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\dermamnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\fracturemnist3d.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\external\\idrid-diabetic-retinopathy.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\nodulemnist3d.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\external\\oasis-age-reg.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\octmnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\organamnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\organcmnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\organmnist3d.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\organsmnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\pathmnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\pneumoniamnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\retinamnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\synapsemnist3d.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\tissuemnist.npz",
+    "C:\\Users\\zhuru\\yuelaogame\\lunwen\\data\\medmnist\\vesselmnist3d.npz"
+  ]
+}

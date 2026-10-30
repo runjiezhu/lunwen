@@ -1,0 +1,19 @@
+# 大体积数据与权重：不入库，按脚本重新生成
+data/medmnist/
+data/external/
+data/parquet_cache/
+data/hf_cache/
+data/merged/merged.npz
+models/
+deploy/*.exe
+deploy/*.log
+
+# 训练权重：体积大（~2.7 GB），结果指标保存在 summary.json
+checkpoints/**/*.pt
+checkpoints/**/*.prev.pt
+
+# 本地临时与缓存
+__pycache__/
+_pkg/
+_probe_tmp/
+*.pyc

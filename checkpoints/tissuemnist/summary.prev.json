@@ -1,0 +1,26 @@
+{
+  "task": "tissuemnist",
+  "task_type": "cls",
+  "num_outputs": 8,
+  "source": "MedMNIST v2",
+  "params": 2715496,
+  "epochs": 1,
+  "metric_name": "ACC",
+  "best_epoch": 1,
+  "best_val": 0.5900169204737733,
+  "test": 0.590989847715736,
+  "test_mae": null,
+  "test_loss": 1.1095166320123042,
+  "best_checkpoint": "C:\\Users\\zhuru\\yuelaogame\\lunwen\\checkpoints\\tissuemnist\\best.pt",
+  "last_checkpoint": "C:\\Users\\zhuru\\yuelaogame\\lunwen\\checkpoints\\tissuemnist\\last.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1778421231810314,
+      "val_loss": 1.1145855879420556,
+      "val_ACC": 0.5900169204737733,
+      "lr": 0.0,
+      "secs": 21.4
+    }
+  ]
+}

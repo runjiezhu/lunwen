@@ -1,0 +1,108 @@
+{
+  "alzheimer-mri": {
+    "task_type": "cls",
+    "num_outputs": 4,
+    "is_3d": false,
+    "npz": "data/external/alzheimer-mri.npz",
+    "source": "Falah/Alzheimer_MRI",
+    "homepage": "https://www.kaggle.com/datasets/mdzahidmahdi/brain-mri-dataset",
+    "modality": "MRI",
+    "classes": [
+      "MildDementia",
+      "ModerateDementia",
+      "NonDementia",
+      "VeryMildDementia"
+    ],
+    "target": ""
+  },
+  "chest-ct-lung-cancer": {
+    "task_type": "cls",
+    "num_outputs": 4,
+    "is_3d": false,
+    "npz": "data/external/chest-ct-lung-cancer.npz",
+    "source": "Mahadih534/Chest_CT-Scan_images-Dataset",
+    "homepage": "https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images",
+    "modality": "CT",
+    "classes": [
+      "adenocarcinoma",
+      "large-cell-carcinoma",
+      "normal",
+      "squamous-cell-carcinoma"
+    ],
+    "target": ""
+  },
+  "brain-tumor-mri": {
+    "task_type": "cls",
+    "num_outputs": 4,
+    "is_3d": false,
+    "npz": "data/external/brain-tumor-mri.npz",
+    "source": "PranomVignesh/MRI-Images-of-Brain-Tumor",
+    "homepage": "https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification",
+    "modality": "MRI",
+    "classes": [
+      "glioma",
+      "meningioma",
+      "notumor",
+      "pituitary"
+    ],
+    "target": ""
+  },
+  "idrid-diabetic-retinopathy": {
+    "task_type": "cls",
+    "num_outputs": 5,
+    "is_3d": false,
+    "npz": "data/external/idrid-diabetic-retinopathy.npz",
+    "source": "amin-nejad/idrid-disease-grading",
+    "homepage": "https://www.kaggle.com/datasets/deathtrooper/diabetic-retinopathy-detection",
+    "modality": "fundus",
+    "classes": [
+      "noDR",
+      "mildDR",
+      "moderateDR",
+      "severeDR",
+      "proDR"
+    ],
+    "target": ""
+  },
+  "breast-ultrasound-birads": {
+    "task_type": "cls",
+    "num_outputs": 4,
+    "is_3d": false,
+    "npz": "data/external/breast-ultrasound-birads.npz",
+    "source": "BTX24/busbra-birads-processed",
+    "homepage": "https://www.kaggle.com/datasets/ahmedmohamedmoustafa/breast-cancer-dataset",
+    "modality": "ultrasound",
+    "classes": [
+      "BI-RADS 2",
+      "BI-RADS 3",
+      "BI-RADS 4",
+      "BI-RADS 5"
+    ],
+    "target": ""
+  },
+  "oasis-age-reg": {
+    "task_type": "reg",
+    "num_outputs": 1,
+    "is_3d": false,
+    "npz": "data/external/oasis-age-reg.npz",
+    "source": "multabench/extended-img-cls-oasis-alzheimers",
+    "homepage": "https://www.kaggle.com/datasets/shreyanmohanty/oasis-alzheimers-detection-multi-class-dataset",
+    "modality": "MRI",
+    "classes": [],
+    "target": "Age"
+  },
+  "chest-xray-pneumonia": {
+    "task_type": "cls",
+    "num_outputs": 2,
+    "is_3d": false,
+    "npz": "data/external/chest-xray-pneumonia.npz",
+    "source": "hf-vision/chest-xray-pneumonia",
+    "homepage": "https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia",
+    "modality": "X-ray",
+    "classes": [
+      "NORMAL",
+      "PNEUMONIA"
+    ],
+    "target": ""
+  }
+}
